@@ -1,24 +1,31 @@
 /* Reset padding and margin */
 
-* {
-    margin: 0;
-    padding: 0;
-}
 
 /* Common styles */
 
 body {
-    max-width: 900px;
+    max-width: 700px;
+    width: 96%;
     margin: 0 auto;
-    padding: 0.5rem;
     font-family: 'Open Sans', sans-serif;
 }
 
+h2 {
+    font-size: 1.1rem;
+}
+
+p, a{
+    margin: 0.7rem 0;
+    font-size: 0.8rem;
+}
+
+nav {
+    display: flex;
+}
 
 /* Navbar styles */
 
 nav {
-    display: flex;
     justify-content: space-between;
     align-items: center;
 }
@@ -33,4 +40,18 @@ nav a {
     margin-right: 1rem;
     font-weight: bold;
     text-decoration: none;
+}
+
+/* About me section */
+
+#aboutme {
+    display: flex;
+}
+
+
+#aboutme img {
+   border-radius: 10px;
+   height: 100%;
+   width: 260px;
+    
 }
