@@ -60,13 +60,58 @@ nav a {
 
 /* Projects section styles */
 
-#projects p {
+
+
+#projects div p {
     font-weight: bold;
     line-height: 0;
 }
 
-#projects p:hover {
+#projects div p:hover {
     cursor: pointer;
+}
+
+div div {
+    display: none;
+} 
+
+#projects div div {
+    line-height: 1.4;
+    margin-left: 1.5rem;
+}
+
+
+#projects div div p {
+    font-weight: normal;
+}
+
+#projects div div span {
+    font-weight: bold;
+}
+
+#projects div div i {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 0.8rem;
+}
+
+#projects div div a {
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.6s;
+}
+
+
+
+#projects div div a:hover {
+    background-color: black;   
+    color: white;
 }
 
 /* Skills section styles */
@@ -86,6 +131,13 @@ nav a {
     color: black;
 }
 
+.visible {
+    display: block;
+}
+
+.rotate {
+    transform: rotate(90deg);
+}
 /* Media query */
 
 @media screen and (max-width: 600px){
