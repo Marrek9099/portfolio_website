@@ -52,7 +52,7 @@ nav a {
 
 
 #aboutme img {
-   margin-left: 0.3rem;
+   margin-left: 2rem;
    border-radius: 10px;
    height: 100%;
    width: 260px;
@@ -64,4 +64,24 @@ nav a {
 #projects p {
     font-weight: bold;
     line-height: 0;
+}
+
+/* Skills section styles */
+
+#skills {
+    margin-top: 1.6rem;
+}
+
+#skills div {
+    font-size: 1.5rem;
+}
+
+#skills div i {
+    margin-right: 1rem;
+}
+
+/* Footer styles */
+
+footer {
+    text-align: center;
 }
