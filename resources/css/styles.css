@@ -95,6 +95,7 @@ div div {
     color: black;
     padding: 0.5rem;
     text-decoration: none;
+    margin-top: 0.5rem;
     transition: background-color 0.6s;
 }
 
